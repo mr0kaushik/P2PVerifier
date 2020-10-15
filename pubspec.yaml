@@ -1,0 +1,30 @@
+name: p2p_verifier
+description: A application to open verified Domain Webpages
+version: 1.0.2+1
+authors:
+  - Deepak Kaushik < kaushikd875@gmail.com | GitHub @mr0kaushik >
+
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^1.1.0
+  qr_code_scanner:
+    git:
+      url: git://github.com/juliuscanute/qr_code_scanner.git
+  flutter_webview_plugin: ^0.3.11
+  fluttertoast: ^7.1.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
